@@ -21,6 +21,13 @@ header {
     padding: 25px;
 }
 
+.haut-de-page h1 {
+    color: white;
+    font-size: 70px;
+    padding: 20px 50px;
+    width: 50vw;
+}
+
 /*Menu de navigation*/
 
 nav {
@@ -36,12 +43,7 @@ nav li{
     list-style: none;
 }
 
-.haut-de-page h1 {
-    color: white;
-    font-size: 70px;
-    padding: 20px 50px;
-    width: 50vw;
-}
+/*Ma description*/
 
 .moi {
     display: flex;
