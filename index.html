@@ -1,94 +1,67 @@
 <!DOCTYPE html>
-<html lange="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="initial-scale=1">
-        <meta name="author" content="Antoine Lenoir" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-        <title>Antoine Lenoir</title>
-    </head>
+<html lang="fr">
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6e632f7fb0.js" crossorigin="anonymous"></script> <!-- pour les icons -->
+    <title>CV Antoine Lenoir</title>
+</head>
 
-        <!-- Menu de navigation --> 
+<body>
+    <section class="haut-de-page">
         <header>
             <nav>
-                <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#etudes">Etudes</a></li>
-                    <li><a href="#experience">Expériences professionnelles</a></li>
-                    <li><a href="#book">Book</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <li>Accueil</li>
+                <li>Experience </li>
+                <li>Book</li>
+                <li>Contacts</li>
             </nav>
         </header>
+        <h1>Mon objectif est de faire du bien à vos yeux</h1>
+    </section>
 
-        <img id="banderole" src="images/banderole.jpg" alt="banderole">
-        
-        <div class="presentation">
-             
-            <section class="antoine">
-                    <img id="img_antoine" src="images/antoine.png" alt="image d'antoine">
-                    <h2>Pour parler de moi</h2>
-                    <p>Je m'appelle Antoine Lenoir, j'ai 20 ans et durant mon parcours je me suis passionné pour le web et surtout de ses aspects graphiques. J'ai aujourd'hui 5 ans d'expérience en informatique et plusieurs projets web à mon actif. Mon objectif serait de devenir désigner web. </p>
-            </section>
-
-            <section class="personnel">
-
-                <div class="competence">
-                    <h1>Mes Compétences</h1>
-                    <ul>
-                        <li>Logiciels Informatiques :</li>
-                            <ul>
-                                <li>Word, Power Point</li>
-                                <li>Photoshop</li>
-                                <li>VSCodium</li>
-                            </ul>
-
-                        <li>Langages de Programmation :</li>
-                            <ul>
-                                <li>Python</li>
-                                <li>Java</li>
-                            </ul>
-
-                        <li>Langages Web :</li>
-                            <ul>
-                                <li>Javascript</li>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                                <li>React</li>
-                            </ul>
-                    </ul>
-                </div>
-
-                <div class="qualitez">
-                    <h1>Mes Qualités</h1>
-                    <ul>
-                        <li>Perfectionniste</li>
-                        <li>Créatif</li>
-                        <li>Motivée</li>
-                    </ul>
-                </div>
-
-                <div class="loisir">
-                    <h1>Mes Loisirs</h1>
-                    <ul>
-                        <li>Sports</li><var>
-                        <li>Jeux vidéos</li>
-                        <li>Mangas</li></var>
-                    </ul>
-                </div>
-
-            </section>
-
+    <section class="moi">
+        <div class="description">
+            <i class="fa-solid fa-code icon"></i> <!-- balise -->
+            <h1>Compétence</h1>
+            <li>Word</li>
+            <li>Power Point</li>
+            <li>Photoshop</li>
+            <li>________</li> <!-- séparation -->
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>PHP</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>________</li> <!-- séparation -->
+            <li>Java</li>
+            <li>Python</li>
         </div>
 
-        
+        <div class="description">
+            <i class="fa-solid fa-heart icon"></i> <!-- coeur -->
+            <h1>Qualité</h1>
+            <li>Esprit d'équipe</li>
+            <li>Perfectionniste</li>
+            <li>Persévérant</li>
+            <li>Créatif</li>
+            <li>Motivé</li>
+        </div>
 
+        <div class="description">
+            <i class="fa-brands fa-dribbble icon"></i> <!-- ballon -->
+            <h1>Loisir</h1>
+            <li>Musculation</li>
+            <li>Basketball</li>
+            <li>Futsal</li>
+            <li>Jeux vidéo</li>
+            <li>Esport</li>
+            <li>Mangas</li>
+        </div>
 
-    </body>
-
+    </section>
+    
+</body>
 </html>

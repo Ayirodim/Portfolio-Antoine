@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+/*Haut de la page*/
+header {
+    display: flex;
+    align-items: center;
+}
+
+.haut-de-page {
+    background: url(images/banderol.jpg);
+    background-size: cover;
+    height: 40vh;
+    padding: 25px;
+}
+
+/*Menu de navigation*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+nav li{
+    color: white;
+    list-style: none;
+}
+
+.haut-de-page h1 {
+    color: white;
+    font-size: 70px;
+    padding: 20px 50px;
+    width: 50vw;
+}
+
+.moi {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.moi .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moi li{
+    list-style: none;
+}
+
+.icon {
+    font-size: 40px;
+    color: black;
+}
