@@ -44,10 +44,18 @@ nav {
     margin-left: 20px;
 }
 
+nav li{
+    list-style: none;
+}
+
 nav li a{
     color: white;
     list-style: none;
     text-decoration: none;
+}
+
+nav li :hover{
+    border-bottom: 3px solid #1994d5;
 }
 
 
@@ -70,7 +78,7 @@ nav li a{
 }
 
 .paragraphe{
-    border-left: 6px solid #9919d5;
+    border-left: 6px solid #a519d5 ;
     padding-left: 20px;
 }
 
@@ -105,7 +113,7 @@ nav li a{
 
 .icon {
     font-size: 50px;
-    color:  #9919d5;
+    color:  #a519d5 ;
 }
 
 .moi h1{
