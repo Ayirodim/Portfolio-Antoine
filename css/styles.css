@@ -16,7 +16,7 @@ header {
 }
 
 .haut-de-page {
-    background: url(images/banderol.jpg);
+    background: url(../images/banderol.jpg);
     background-size: cover;
     height: 40vh;
     padding: 25px;
