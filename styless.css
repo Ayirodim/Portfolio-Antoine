@@ -24,9 +24,9 @@ header {
 
 .haut-de-page h1 {
     color: white;
-    font-size: 350%;
+    font-size: 400%;
     padding: 20px 50px;
-    width: 60%;
+    width: 50%;
 }
 
 /*Menu de navigation*/
@@ -107,7 +107,7 @@ nav li{
     }
 
     .haut-de-page h1 {
-        font-size: 250%;
+        font-size: 280%;
         padding: 20px 50px;
         width: 70%;
     }
@@ -136,14 +136,14 @@ nav li{
 @media (max-width: 540px){ /*Téléphone*/
 
     .haut-de-page {
-        height: 20vh;
+        height: 25vh;
         padding: 25px 10px 25px 10px;
     }
 
     .haut-de-page h1 {
-        font-size: 150%;
+        font-size: 200%;
         padding: 20px 20px;
-        width: 90%;
+        width: 85%;
     }
 
     nav {
