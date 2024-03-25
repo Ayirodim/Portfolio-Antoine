@@ -1,0 +1,76 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.page2{
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.Fondtextp2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: rgba(23,23,23,0.80);
+  color: white;
+  border: solid 1px grey;
+  border-radius: 1em;
+  padding: 20px;
+}
+
+.Fondtextp2:active{
+  background-color: black;
+  transition: background-color 1s;
+}
+
+img{
+  box-shadow: 3px 3px 3px grey;
+  border-radius: 1em;
+}
+
+img:hover{
+  box-shadow: 3px 3px 3px white;
+}
+
+p{
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+}
+abbr{
+  text-decoration: none;
+}
+
+/*paragraphe 1*/
+#tardis{
+  border: 1px white solid;
+  float: left;
+  margin-right: 15px;
+  width: 35%;
+}
+
+/*paragraphe 2*/
+#retm{
+  border: 1px white solid;
+  float: right;
+  margin-left: 15px;
+  width: 35%;
+}
+
+/*paragraphe 3*/
+#attball{
+  border: 1px white solid;
+  float: left;
+  margin-right: 15px;
+  width: 35%;
+}
+
+/*paragraphe 4*/
+#tie{
+  border: 1px white solid;
+  float: right;
+  margin-left: 15px;
+  width: 38%;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+<?php
+
+$corps =<<<EOT
+  <form action="index.php?action=sauvegarde" method="post">
+  <input type="hidden" name="type" value="confirm_update"/>
+  <input type="hidden" name="idM" value="$idM"/>
+  <input type="hidden" name="sql" value="$sql"/>
+  <p>Etes vous sûr de vouloir mettre à jour ce manga ?</p>
+  <p>
+      <input type="submit" value="Enregistrer">
+      <a href="index.php" class="btn btn-secondary">Annuler</a>
+  </p>
+</form>
+EOT;
+$zonePrincipale=$corps;
+?>

@@ -1,0 +1,60 @@
+.page1{
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*BLOC TITRE*/
+.Titre{
+  background-color: rgba(23,23,23,0.80) ;
+  color: white;
+  border: solid 1px grey;
+  border-radius: 1em;
+}
+#titre1{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+#titre2{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+/*LE CORPS DE LA PAGE*/
+.corps{
+  background-color: rgba(23,23,23,0.80);
+  color: white;
+  border: solid 1px grey;
+  border-radius: 1em;
+}
+.corps a{
+  color: white;
+}
+.corps strong{
+  font-size: 19px;
+}
+.page1 p{
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+/*IMAGE*/
+.imagep1{
+  padding-top: 20px;
+  padding-right: 20vw;
+  text-align: right;
+}
+
+img{
+  width: 60vh;
+}
+
+img:hover{
+  opacity: 0.80;
+  transition: opacity 1s;
+}
+/*BARRE DE SÉPARATION*/
+hr{
+  border: solid 2px;
+  color: grey;
+}

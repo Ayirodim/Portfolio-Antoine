@@ -1,0 +1,107 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*BODY*/
+body{
+  background-image: url(../img/général/porte.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+/*HEADER*/
+header{
+  background-color: #002d3f ;
+  border: solid 1px grey;
+  color: white;
+  max-height: 90px;
+}
+
+/*BOUTON POUR CHANGER DE PAGE*/
+.menu{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding: 1em;
+}
+.menu li{
+  max-height: 20px;
+  border-right:solid 2px white;
+}
+
+.menu li:last-child{ /*Pour ne pas avoir la séparation au mauvais endroit */
+  border: none;
+}
+.menu ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  list-style-type: none;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+}
+.menu a:hover{
+  color: grey;
+  font-size: 20px;
+  transition: font-size 1s;
+}
+
+@media (max-width: 700px){/*Pour adapter avec 700px et moins */
+
+  header{
+    max-height: none;
+  }
+
+  .menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 1em;
+  }
+  .menu ul{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .menu li{
+    max-height: none;
+    height: 40px;
+    border-top:solid 3px white;
+    border-right: none;
+  }
+  .menu li:last-child{
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+  }
+  .menu li:first-child{
+    border-top: solid 3px white;
+  }
+  .menu a{
+
+    font-size: 25px;
+  }
+  .menu a:hover{
+    font-size: 24px;
+  }
+
+}
+
+/*FOOTER*/
+
+footer{
+  margin-left: 30px;
+  display: grid;
+  display: inline-block;
+  border-top: solid 2px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+footer a{
+  color: white;
+}
+
+footer:active{
+  background-color: rgba(23,23,23,0.80);
+  transition: background-color 1s;
+}

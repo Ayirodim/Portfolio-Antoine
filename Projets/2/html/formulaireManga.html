@@ -1,0 +1,29 @@
+<?php
+
+$corps =<<<EOT
+  <form method="post" action="index.php?action={$cible}&idM={$idM}" name="form_user" >
+  <label>Nom :</label>
+  <input type="text" name="nom" value="{$nom}">
+  <span class="w3-text-red">{$erreur["nom"]}</span><br>
+
+  <label>Auteur :</label>
+  <input type="text" name="auteur" value="{$auteur}">
+  <span class="w3-text-red">{$erreur["auteur"]}</span><br>
+
+  <label>Date de Sortie :</label>
+  <input type="date" name="date_sortie" value="{$date_sortie}"> 
+  <span class="w3-text-red">{$erreur["date_sortie"]}</span><br>
+
+  <label>Theme :</label>
+  <input type="text" name="theme" value="{$theme}">
+  <span class="w3-text-red">{$erreur["theme"]}</span><br>
+
+  <label>Description :</label> 
+  <textarea name="histoire">$histoire</textarea>
+  <span class="w3-text-red">{$erreur["histoire"]}</span><br>
+  
+  <input type="submit" name="user_valid" value="Valider" >  
+  </form>
+EOT;
+$zonePrincipale=$corps;
+?>
