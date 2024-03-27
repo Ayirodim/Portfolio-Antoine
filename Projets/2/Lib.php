@@ -4,7 +4,7 @@
 function connecter()
 {
     try {
-        $dns = "mysql:host=mysql.info.unicaen.fr;port=3306;dbname=lenoir211_bd;charset=utf8";
+        $dns = "mysql:host=localhost;port=3306;dbname=lenoir211_bd;charset=utf8";
         $utilisateur = "lenoir211";
         $motDePasse = "EoKahph1uVienoi5";
         
